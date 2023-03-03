@@ -16,10 +16,7 @@ struct BottomButtonView: View {
     var body: some View {
         ZStack {
             Color.white
-                .frame(width: backgroundSize, height: backgroundSize)
-                .cornerRadius(backgroundSize)
-                .shadow(radius: 10)
-            
+                .asRoundShadow(size: backgroundSize)
             Button {
                 // action
             } label: {
@@ -31,3 +28,5 @@ struct BottomButtonView: View {
         }
     }
 }
+
+
