@@ -14,6 +14,8 @@
 		B2996C3129B09BFF0042E115 /* TinderCloneForSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2996C3029B09BFF0042E115 /* TinderCloneForSwiftUITests.swift */; };
 		B2996C3B29B09BFF0042E115 /* TinderCloneForSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2996C3A29B09BFF0042E115 /* TinderCloneForSwiftUIUITests.swift */; };
 		B2996C3D29B09BFF0042E115 /* TinderCloneForSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2996C3C29B09BFF0042E115 /* TinderCloneForSwiftUIUITestsLaunchTests.swift */; };
+		B2996C4A29B0BABD0042E115 /* SelectedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2996C4929B0BABD0042E115 /* SelectedItem.swift */; };
+		B2996C5029B1B3E30042E115 /* BottomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2996C4F29B1B3E30042E115 /* BottomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B2996C3629B09BFF0042E115 /* TinderCloneForSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderCloneForSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2996C3A29B09BFF0042E115 /* TinderCloneForSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneForSwiftUIUITests.swift; sourceTree = "<group>"; };
 		B2996C3C29B09BFF0042E115 /* TinderCloneForSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneForSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2996C4929B0BABD0042E115 /* SelectedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedItem.swift; sourceTree = "<group>"; };
+		B2996C4F29B1B3E30042E115 /* BottomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +98,9 @@
 		B2996C1E29B09BFD0042E115 /* TinderCloneForSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				B2996C1F29B09BFD0042E115 /* TinderCloneForSwiftUIApp.swift */,
-				B2996C2129B09BFD0042E115 /* ContentView.swift */,
-				B2996C2329B09BFF0042E115 /* Assets.xcassets */,
+				B2996C4D29B17E680042E115 /* Resources */,
+				B2996C4B29B17E470042E115 /* Model */,
+				B2996C4C29B17E530042E115 /* Views */,
 				B2996C2529B09BFF0042E115 /* Preview Content */,
 			);
 			path = TinderCloneForSwiftUI;
@@ -125,6 +129,40 @@
 				B2996C3C29B09BFF0042E115 /* TinderCloneForSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = TinderCloneForSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		B2996C4B29B17E470042E115 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2996C4929B0BABD0042E115 /* SelectedItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B2996C4C29B17E530042E115 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2996C2129B09BFD0042E115 /* ContentView.swift */,
+				B2996C4E29B1B3CF0042E115 /* SubViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2996C4D29B17E680042E115 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2996C1F29B09BFD0042E115 /* TinderCloneForSwiftUIApp.swift */,
+				B2996C2329B09BFF0042E115 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B2996C4E29B1B3CF0042E115 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				B2996C4F29B1B3E30042E115 /* BottomButtonView.swift */,
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2996C4A29B0BABD0042E115 /* SelectedItem.swift in Sources */,
+				B2996C5029B1B3E30042E115 /* BottomButtonView.swift in Sources */,
 				B2996C2229B09BFD0042E115 /* ContentView.swift in Sources */,
 				B2996C2029B09BFD0042E115 /* TinderCloneForSwiftUIApp.swift in Sources */,
 			);
